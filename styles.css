@@ -58,5 +58,23 @@ h3 {
     color: #EEEEEE;
     border: 2px solid grey;
     border-radius:  4px;
+    padding: 4px 8px;
 }
   
+.reset {
+    font-family: "Iceland", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    border: 2px solid grey;
+    border-radius:  4px;
+    text-wrap: wrap;
+    width: 80px;
+    padding: 5px;
+}
+
+.highlight {
+    border: 2px solid lightgreen;
+}
