@@ -1,11 +1,11 @@
 body {
-    margin: 0;
-    width: 575px;
-    height: 385px;
+    margin: auto;
     background-color: #1B244A;
-    box-sizing: border-box;
-    
-    
+    box-sizing: border-box; 
+    font-family: "Iceland", serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 .container {
@@ -16,6 +16,7 @@ body {
 h3 {
     text-align: center;
     color: #EEEEEE;
+    font-size: 40px;
     
 }
 
@@ -27,4 +28,13 @@ h3 {
 .buttons {
     display: flex;
     justify-content: space-around;
+
 }
+
+.btn {
+    font-family: "Iceland", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+  
