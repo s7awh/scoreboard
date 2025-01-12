@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-        <div>
+        <div class="leftside">
             <h3>HOME</h3>
             <div class="score" id="homeScore"></div>
             <div class="buttons">
@@ -20,10 +20,11 @@
                 <button class="btn" onclick="add3Home()">+3</button>
             </div>
         </div>
-        <div>
+        <div class="middle">
+            <div class="timer" id="timer">00:00</div>
             <button class="reset" onclick="reset()">NEW GAME</button>
         </div>
-        <div>
+        <div class="rightside">
             <h3>GUEST</h3>
             <div class="score" id="guestScore"></div>
             <div class="buttons">
