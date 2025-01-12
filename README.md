@@ -1,2 +1,2 @@
 # scoreboard
-Score Board for Basketball 
+Scoreboard for Basketball - Scrimba practice time part 1
