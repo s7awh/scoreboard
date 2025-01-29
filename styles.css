@@ -74,6 +74,7 @@ h3 {
     text-wrap: wrap;
     width: 80px;
     padding: 5px;
+    margin-bottom: 20px;
 }
 
 .highlight {
@@ -92,7 +93,22 @@ h3 {
 
 .timer {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 10px;
 
+}
+
+.pause {
+    font-family: "Iceland", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    border: 2px solid grey;
+    border-radius:  4px;
+    text-wrap: wrap;
+    width: 80px;
+    padding: 5px;
+    margin-bottom: 20px;
 }
