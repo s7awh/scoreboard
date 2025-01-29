@@ -49,7 +49,7 @@ function reset() { // new game button function reseting the scoreboard
     countH = 0;
     document.getElementById("homeScore").textContent = countH;
     document.getElementById("guestScore").textContent = countG;
-
+    startClock()
 }
 
 function maxScorehighlight () {
@@ -65,5 +65,4 @@ function maxScorehighlight () {
         guestScore.classList.add('highlight'); // highlight Guest if bigger than Home
     }
 }
-
 
